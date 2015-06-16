@@ -2,19 +2,24 @@
 """
 Simple program that creates a high resolution photon picture
 for use in publications
-
-
 @author: Levi Smith - June 2015
 """
+
+# Language: Python
+#
+# Comments: Just started learning Python as an alternative to Matlab
+#           so there is likely some non-ideal techniques utilized here.
+#
+
 import math
 import numpy as np
 import matplotlib.pyplot as plt
 
-## User-specifiec parameters
+## User-specific parameters
 N_osc = 4                # Number of non-decaying oscillations
 N_decay = 3              # Number of decaying oscillations
 alpha_decay = np.pi/6    # Rate of decay for oscillations
-photon_color = 'black'   # Photon color
+photon_color = 'red'     # Photon color
 transparent_fig = True   # Figure background transparency?
 arrow_thickness = 6      # Line thickness
 
